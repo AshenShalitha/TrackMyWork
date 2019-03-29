@@ -1,0 +1,45 @@
+{
+  "name": "Opus",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "jsonwebtoken": "^8.4.0",
+    "jwt-decode": "^2.2.0",
+    "moment": "^2.22.2",
+    "react": "16.5.0",
+    "react-native": "0.57.1",
+    "react-native-calendars": "^1.21.0",
+    "react-native-datepicker": "^1.7.2",
+    "react-native-elements": "^0.19.1",
+    "react-native-extended-stylesheet": "^0.10.0",
+    "react-native-fetch-blob": "^0.10.8",
+    "react-native-fontawesome": "^5.7.0",
+    "react-native-grid-component": "^1.1.0",
+    "react-native-image-picker": "^0.27.2",
+    "react-native-indicators": "^0.13.0",
+    "react-native-material-dropdown": "^0.11.1",
+    "react-native-modal": "^7.0.2",
+    "react-native-switch-pro": "^1.0.1-beta",
+    "react-native-textinput-effects": "^0.4.2",
+    "react-native-vector-icons": "^6.1.0",
+    "react-navigation": "^2.17.0",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "@babel/runtime": "^7.0.0",
+    "babel-jest": "23.6.0",
+    "eslint-config-rallycoding": "^3.2.0",
+    "jest": "23.6.0",
+    "metro-react-native-babel-preset": "0.46.0",
+    "react-test-renderer": "16.5.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}

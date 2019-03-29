@@ -1,0 +1,9 @@
+[33m4a34ece[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m task list added
+[33m38abab1[m task card modal's picker populated
+[33m62106df[m logout added
+[33m3130622[m login with session management, without replace animations.
+[33medb97d8[m login actions and reducers added
+[33mb7f1759[m flex bug fixed
+[33m348e212[m initial design,with few bugs
+[33mf10df00[m updated structure,login page without background,tabbed layout with header
+[33m7a1eb9a[m Initial commit, empty login and tab screens

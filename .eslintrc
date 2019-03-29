@@ -1,0 +1,7 @@
+{
+    "extends": "rallycoding",
+    "rules": {
+        "react/sort-comp": 0,
+        "max-len": 0
+    }
+}

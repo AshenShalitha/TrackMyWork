@@ -1,0 +1,25 @@
+export const PROTOCOL = 'http://';
+export const HOST = 'opus-api.arimac.xyz';
+// export const HOST = 'opus-api.devops.arimac.xyz';
+export const LOGIN = PROTOCOL + HOST + '/webapi/auth/login';
+export const GET_ACCESS_TOKEN = PROTOCOL + HOST + '/webapi/auth/getAccesFromRefreshtoken';
+export const GET_PROJECTS = PROTOCOL + HOST + '/webapi/projects/';
+export const GET_MY_INCOMPLETED_TASKS = PROTOCOL + HOST + '/webapi/tasks/myincompleted';
+export const GET_MY_COMPLETED_TASKS = PROTOCOL + HOST + '/webapi/tasks/mycompleted';
+export const COMPLETE_INCOMPLETE_TASK = PROTOCOL + HOST + '/webapi/tasks/mystatus/';
+export const MARK_ATTENDANCE = PROTOCOL + HOST + '/webapi/attend/';
+export const PUT_ATTENDANCE = PROTOCOL + HOST + '/webapi/attend/';
+export const GET_ATTENDANCE = PROTOCOL + HOST + '/webapi/attend/myattendence/';
+export const GET_USER_DETAILS = PROTOCOL + HOST + '/webapi/users/';
+export const CHANGE_MY_PASSWORD = PROTOCOL + HOST + '/webapi/auth/changepw';
+export const UPDATE_PROFILE = PROTOCOL + HOST + '/webapi/users/updatemyprofile';
+export const ADD_TASK = PROTOCOL + HOST + '/webapi/tasks/addtasktome';
+export const GET_MY_ATTENDANCE = PROTOCOL + HOST + '/webapi/attend/myattendinfo/';
+export const GET_ALL_USERS = PROTOCOL + HOST + '/webapi/users';
+export const TASKS = PROTOCOL + HOST + '/webapi/tasks/';
+export const INCOMPLETED_TASKS = PROTOCOL + HOST + '/webapi/tasks/incompleted';
+export const ATTENDANCE = PROTOCOL + HOST + '/webapi/attend/';
+export const ADMIN_PUT_ATTENDANCE = PROTOCOL + HOST + '/webapi/attend/';
+export const COMPLETE_INCOMPLETE_TASK_ADMIN = PROTOCOL + HOST + '/webapi/tasks/';
+export const GET_ATTENDANCE_INFO = PROTOCOL + HOST + '/webapi/attend/attendinfo/';
+
